@@ -7,6 +7,7 @@ class ImportCsv < ApplicationRecord
             name: row["name"],
             age: row["age"],
             address: row["address"]
+
 						}
 		end
     User.create(list)
